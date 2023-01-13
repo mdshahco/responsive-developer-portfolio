@@ -307,6 +307,7 @@ footer{margin-top: 113px;
     }
     .btn-secondary{
         margin-top: 25px;
+        margin-left: 0px;
     }
     .about{
         padding: 130px 65px;
@@ -322,8 +323,13 @@ footer{margin-top: 113px;
         padding: 0px 0px 0px 5px;
     }
 
+
+
 }
 @media screen and (min-width:577px) and (max-width:992px){
+    .bannar{
+        flex-direction: column;
+    }
     .about{
         padding: 130px 65px;
         margin: 0px;
